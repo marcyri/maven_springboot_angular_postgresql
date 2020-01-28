@@ -1,0 +1,9 @@
+.git/*
+.idea/*
+**/target/*
+angular-app/node/*
+/sch3app-front/src/main/angular-app/node_modules/
+/sch3app-front/src/main/angular-app/dist/
+/sch3app-front/src/main/angular-app/e2e/
+/sch3app-front/src/main/angular-app/node/
+*.iml

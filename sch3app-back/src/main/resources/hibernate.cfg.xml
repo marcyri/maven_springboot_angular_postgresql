@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/nvl_sch3</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <mapping class="com.sch3.sch3app.entity.Sch301SchoolEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch302StudentEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch303StudentPhotoEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch304StudentAddressEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch305StudentInfoPassportEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch306StudentInfoCertificateEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch307StudentInfoSchoolCertificateEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch308StudentInfoSpecialEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch330StudentCurrentInfoEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch331StudentCurrentInfoHistoryEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch332StudentInfoMainEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch333StudentInfoSecondaryEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch334StudentInfoThirdEntity"/>
+    <mapping class="com.sch3.sch3app.entity.Sch399CityDistrictEntity"/>
+
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
